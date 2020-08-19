@@ -1,0 +1,47 @@
+{
+    "install_brew": true,
+    "brew_install": [
+        "autojump",
+        "thefuck",
+        "axel",
+        "vim",
+        "zsh-autosuggestions",
+        "zsh-syntax-highlighting"
+    ],
+    "brew_cask_install": [
+        "baidunetdisk",
+        "iterm2",
+        "qqmusic",
+        "upic",
+        "wechat",
+        "google-chrome",
+        "neteasemusic",
+        "typora",
+        "visual-studio-code",
+        "snipaste",
+        "qqlive",
+        "imgotv",
+        "qlcolorcode",
+        "qlstephen",
+        "qlmarkdown",
+        "quicklook-json",
+        "qlimagesize",
+        "qlvideo"
+    ],
+    "add_profile": {
+        "~/.zshrc": [
+            "/usr/local/etc/profile.d/autojump.sh",
+            "",
+            "source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh",
+            "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh",
+            "",
+            "export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles",
+            "",
+            "eval $(thefuck --alias)"
+        ]
+    },
+    "install_nvm": true,
+    "nodejs_version": "12.18.3",
+    "install_ohmyzsh": true,
+    "oh_my_zsh_theme": ""
+}
