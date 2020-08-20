@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $(dirname $0)
+
 if [[ ! -e /usr/local/bin/brew ]]; then
     # https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
 
